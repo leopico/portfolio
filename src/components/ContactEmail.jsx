@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 // import toastify
@@ -6,10 +6,15 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 //   <input type="text" className="input" placeholder="subject" />;
 
+// import spinner
+import { Circles } from "react-loader-spinner";
+
 const ContactEmail = () => {
   const form = useRef();
+  const [loader, setLoader] = useState(false);
 
   const senEmail = (e) => {
+    setLoader(true);
     e.preventDefault();
     emailjs
       .sendForm(
@@ -20,7 +25,8 @@ const ContactEmail = () => {
       )
       .then(
         (result) => {
-          toast("Message already!");
+          setLoader(false);
+          toast("Your message already send!🤩");
           setTimeout(function () {
             window.location.reload();
           }, 2000);
@@ -65,11 +71,25 @@ const ContactEmail = () => {
         name="message"
         placeholder="Your message"
       />
-      <input
+      <button
         className="btn btn-md bg-accent hover:bg-accent-hover cursor-pointer"
         type="submit"
         value="Send"
-      />
+      >
+        {loader ? (
+          <Circles
+            height="30"
+            width="30"
+            radius="9"
+            color="orange"
+            ariaLabel="loading"
+            wrapperStyle
+            wrapperClass
+          />
+        ) : (
+          "send"
+        )}
+      </button>
       <div>
         <ToastContainer className="bg-secondary text-white" />
       </div>
