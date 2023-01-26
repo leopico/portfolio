@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Socials from "./Socials";
 import NavMobile from "./NavMobile";
 
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.jpg";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -22,7 +22,12 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         {/*logo*/}
         <div to="">
-          <img src={logo} alt="" style={{ height: "40px" }} />
+          <img
+            src={logo}
+            alt=""
+            style={{ height: "40px" }}
+            className="rounded"
+          />
         </div>
         {/*Nav*/}
         <div className="hidden lg:block">
