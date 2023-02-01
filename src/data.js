@@ -29,7 +29,7 @@ import SkillImg6 from "./assets/img/skills/ethers_js.png";
 import SkillImg7 from "./assets/img/skills/git.png";
 import SkillImg8 from "./assets/img/skills/figma.png";
 import SkillImg9 from "./assets/img/skills/hardhat.png";
-import SkillImg10 from "./assets/img/skills/jq.png";
+import SkillImg10 from "./assets/img/skills/bootstrap.png";
 
 // navigation
 export const navigation = [
@@ -102,6 +102,9 @@ export const skills = [
     image: SkillImg3,
   },
   {
+    image: SkillImg10,
+  },
+  {
     image: SkillImg4,
   },
   {
@@ -111,16 +114,13 @@ export const skills = [
     image: SkillImg6,
   },
   {
-    image: SkillImg7,
+    image: SkillImg9,
   },
   {
     image: SkillImg8,
   },
   {
-    image: SkillImg9,
-  },
-  {
-    image: SkillImg10,
+    image: SkillImg7,
   },
 ];
 
