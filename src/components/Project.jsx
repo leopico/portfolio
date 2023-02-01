@@ -11,7 +11,12 @@ const Project = ({ item }) => {
       className="flex flex-col items-center text-center bg-gradient-to-tr from-amber-500 to-fuchsia-700 rounded"
     >
       <div className="mb-5">
-        <img className="p-2 rounded-xl" src={item.image} alt="" />
+        <img
+          className="p-2 rounded-xl"
+          src={item.image}
+          alt=""
+          style={{ height: "200px" }}
+        />
       </div>
       <p className="capitalize text-secondary font-semibold text-sm mb-3">
         {item.category}

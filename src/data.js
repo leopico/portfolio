@@ -18,6 +18,7 @@ import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
 import Project1 from "./assets/img/projects/p1.png";
+import Project2 from "./assets/img/projects/p2.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -150,6 +151,15 @@ export const projectsData = [
     description:
       "This pj is note application with laravel-api.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
     link: "https://github.com/leopico/note-app-api.git",
+  },
+  {
+    id: "1",
+    image: Project2,
+    name: "Bootstrap portfolio pj",
+    category: "front-end dev",
+    description:
+      "This pj is Bootstrap portfolio pj with fully responsive.You can clone on github's link and check my experience for bootstrap skill.",
+    link: "https://github.com/leopico/bootstrap-portfolio.git",
   },
 ];
 
