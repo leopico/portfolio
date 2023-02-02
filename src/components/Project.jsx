@@ -27,7 +27,7 @@ const Project = ({ item }) => {
       <p className="text-sm text-white mb-3">{item.description}</p>
       <button className="btn btn-md bg-tertiary hover:bg-accent-hover transition-all rounded-full mb-3">
         <a {...gitRepo}>
-          <b className="">clone repo</b>
+          <b className="">Get Link</b>
         </a>
       </button>
     </div>

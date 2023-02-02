@@ -19,6 +19,7 @@ import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 // projects images
 import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.png";
+import Project4 from "./assets/img/projects/p4.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -153,13 +154,22 @@ export const projectsData = [
     link: "https://github.com/leopico/note-app-api.git",
   },
   {
-    id: "1",
+    id: "2",
     image: Project2,
     name: "Bootstrap portfolio pj",
     category: "front-end dev",
     description:
       "This pj is Bootstrap portfolio pj with fully responsive.You can clone on github's link and check my experience for bootstrap skill.",
     link: "https://github.com/leopico/bootstrap-portfolio.git",
+  },
+  {
+    id: "4",
+    image: Project4,
+    name: "NFT Minting Site",
+    category: "Blockchain Dev",
+    description:
+      "This pj is NFT minting pj with solidity smart contract.You can clone on github's link for back-end side and check ReadME.md how to start to run for this app.",
+    link: "https://github.com/leopico/nft-space.git",
   },
 ];
 
