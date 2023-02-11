@@ -19,6 +19,7 @@ import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 // projects images
 import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.png";
+import Project3 from "./assets/img/projects/p3.png";
 import Project4 from "./assets/img/projects/p4.png";
 
 // skills images
@@ -150,7 +151,7 @@ export const projectsData = [
     name: "Note application with Laravel-api",
     category: "front-end dev",
     description:
-      "This pj is note application with laravel-api.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
+      "This pj is note application with laravel-api.This pj is not fully responsive.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
     link: "https://github.com/leopico/note-app-api.git",
   },
   {
@@ -163,12 +164,21 @@ export const projectsData = [
     link: "https://github.com/leopico/bootstrap-portfolio.git",
   },
   {
-    id: "4",
-    image: Project4,
-    name: "NFT Minting Site",
+    id: "3",
+    image: Project3,
+    name: "Multisig wallet Dapp",
     category: "Blockchain Dev",
     description:
-      "This pj is NFT minting pj with solidity smart contract.You can clone on github's link for back-end side and check ReadME.md how to start to run for this app.",
+      "This pj is multi-sig wallet dapp pj with solidity smart contract.This pj was max responsive at (875px X 657px).You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
+    link: "https://github.com/leopico/multisig-wallet-backend",
+  },
+  {
+    id: "4",
+    image: Project4,
+    name: "NFT Minting Site Dapp",
+    category: "Blockchain Dev",
+    description:
+      "This pj is NFT minting pj with solidity smart contract with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
     link: "https://github.com/leopico/nft-space.git",
   },
 ];
