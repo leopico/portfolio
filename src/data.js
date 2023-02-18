@@ -19,8 +19,9 @@ import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 // projects images
 import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.png";
-import Project3 from "./assets/img/projects/p3.png";
 import Project4 from "./assets/img/projects/p4.png";
+import Project5 from "./assets/img/projects/p5.png";
+import Project6 from "./assets/img/projects/p6.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -164,8 +165,17 @@ export const projectsData = [
     link: "https://github.com/leopico/bootstrap-portfolio.git",
   },
   {
-    id: "3",
-    image: Project3,
+    id: "4",
+    image: Project4,
+    name: "Voting DAO Dapp",
+    category: "Blockchain Dev",
+    description:
+      "This pj is Voting DAO demo pj with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
+    link: "https://github.com/leopico/voting-dao-backend.git",
+  },
+  {
+    id: "5",
+    image: Project5,
     name: "Multisig wallet Dapp",
     category: "Blockchain Dev",
     description:
@@ -173,8 +183,8 @@ export const projectsData = [
     link: "https://github.com/leopico/multisig-wallet-backend",
   },
   {
-    id: "4",
-    image: Project4,
+    id: "6",
+    image: Project6,
     name: "NFT Minting Site Dapp",
     category: "Blockchain Dev",
     description:
