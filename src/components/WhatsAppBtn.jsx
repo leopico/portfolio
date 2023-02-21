@@ -7,7 +7,7 @@ const WhatsAppBtn = () => {
     <div>
       <ReactWhatsapp
         className="btn btn-md bg-accent hover:bg:accent-hover md:btn-md rounded transition-all"
-        number="+95 9 767 091198"
+        number="+95 9 677 411000"
         message="How can I assit you! 🤩"
       >
         WhatsApp <FiInbox className="ml-4 text-secondary" />

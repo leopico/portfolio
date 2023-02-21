@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 // import image
 import Image from "../assets/img/about_man.jpg";
+import ResumeDownload from "./ResumeDownload";
 
 const About = () => {
   return (
@@ -24,13 +24,16 @@ const About = () => {
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8  ">
-                Talk is very cheap 🤘🏽! You can tract upon my portfolio projects.
+                I’m a long-time wandering at nft space and web-3 community for a
+                long time. Currently, in addition to the web-3 development
+                field. I started exploring web-3 development in the middle of
+                2021 and since then I have become addicted. I completed a large
+                number of projects and gained a large number of connections in
+                this Web-3 world.Talk is very cheap 🤘🏽! You can tract upon my
+                portfolio projects.
               </p>
             </div>
-
-            <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all rounded-full">
-              👇🏽👇🏽👇🏽
-            </button>
+            <ResumeDownload />
           </div>
         </div>
       </div>
