@@ -15,7 +15,7 @@ const LeftSideHero = () => {
         <TypeWriter
           options={{
             strings: [
-              " junior blockchain developer 🤩",
+              " junior web-3 developer 🤩",
               " passionate on learning about web-3...👊🏽",
               " Father of 🙅🏼‍♀️",
             ],
@@ -25,8 +25,8 @@ const LeftSideHero = () => {
         />
       </p>
       <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center ls:text-left">
-        I build blockchain development and front-end for web interfaces. 😺I am
-        very passion on blockchain field.
+        I build web-3 development and front-end for web interfaces. 😺I am very
+        passion on blockchain field.
       </p>
       <WhatsAppBtn />
     </div>

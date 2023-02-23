@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           {/*copy right*/}
           <p className="text-accent">
-            &copy; 2023 Cristian Mihai .All rights reserved.
+            &copy; 2023 leopico .All rights reserved.
           </p>
         </div>
       </div>

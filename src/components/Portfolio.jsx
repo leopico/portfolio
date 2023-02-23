@@ -11,7 +11,8 @@ const Portfolio = () => {
             My Portfolio Pj
           </h2>
           <p className="subtitle">
-            All portfolio projects are studied on course and re-design by me.
+            All portfolio projects are studied on course and re-design for
+            structure of code by me.
           </p>
         </div>
         <Projects />
