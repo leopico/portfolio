@@ -67,11 +67,11 @@ export const social = [
   },
   {
     icon: <FiLinkedin />,
-    href: "https://www.linkedin.com/in/leopico-coding-412a2624b/",
+    href: "https://www.linkedin.com/in/leopico-412a2624b/",
   },
   {
     icon: <FiTwitter />,
-    href: "https://twitter.com/home",
+    href: "https://twitter.com/hTmI2022",
   },
 ];
 
