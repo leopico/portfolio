@@ -134,7 +134,7 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "front-end dev",
+    name: "web-2",
   },
   {
     name: "Blockchain dev",
@@ -150,7 +150,7 @@ export const projectsData = [
     id: "1",
     image: Project1,
     name: "Note application with Laravel-api",
-    category: "front-end dev",
+    category: "web-2",
     description:
       "This pj is note application with laravel-api.This pj is not fully responsive.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
     link: "https://github.com/leopico/note-app-api.git",
@@ -159,7 +159,7 @@ export const projectsData = [
     id: "2",
     image: Project2,
     name: "Bootstrap portfolio pj",
-    category: "front-end dev",
+    category: "web-2",
     description:
       "This pj is Bootstrap portfolio pj with fully responsive.You can clone on github's link and check my experience for bootstrap skill.",
     link: "https://github.com/leopico/bootstrap-portfolio.git",
