@@ -22,6 +22,7 @@ import Project2 from "./assets/img/projects/p2.png";
 import Project4 from "./assets/img/projects/p4.png";
 import Project5 from "./assets/img/projects/p5.png";
 import Project6 from "./assets/img/projects/p6.png";
+import Project7 from "./assets/img/projects/p7.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -185,11 +186,20 @@ export const projectsData = [
   {
     id: "6",
     image: Project6,
-    name: "NFT Minting Site Dapp",
+    name: "NFT Minting Site Dapp with keccak256 for whitelist function",
     category: "Blockchain Dev",
     description:
       "This pj is NFT minting pj with solidity smart contract with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
     link: "https://github.com/leopico/nft-space.git",
+  },
+  {
+    id: "7",
+    image: Project7,
+    name: "NFT Minting Site Dapp with whitelist smart contract function",
+    category: "Blockchain Dev",
+    description:
+      "This pj is NFT minting pj with solidity smart contract with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
+    link: "https://github.com/leopico/CryptoDevs-backend.git",
   },
 ];
 
