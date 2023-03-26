@@ -19,6 +19,7 @@ import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 // projects images
 import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.png";
+import Project3 from "./assets/img/projects/p3.png";
 import Project4 from "./assets/img/projects/p4.png";
 import Project5 from "./assets/img/projects/p5.png";
 import Project6 from "./assets/img/projects/p6.png";
@@ -164,6 +165,15 @@ export const projectsData = [
     description:
       "This pj is Bootstrap portfolio pj with fully responsive.You can clone on github's link and check my experience for bootstrap skill.",
     link: "https://github.com/leopico/bootstrap-portfolio.git",
+  },
+  {
+    id: "3",
+    image: Project3,
+    name: "Coffee shop pj with tailwindcss",
+    category: "web-2",
+    description:
+      "This pj was build with vite environmental that including with HTML, js, Tailwindcss and DaisyUI plugin of Tailwindcss.You can see on readMe.md for deployed link",
+    link: "https://github.com/leopico/coffee-shop-pj.git",
   },
   {
     id: "4",
