@@ -20,16 +20,16 @@ const About = () => {
                 Leopico
               </h2>
               <p className="mb-4 text-accent ">
-                Freelance Blockchain development
+                Freelance Full-Stack web developer
               </p>
               <hr className="mb-8 opacity-5" />
-              <p className="mb-8  ">
+              <p className="mb-8 antialiased">
                 I’m a long-time wandering at nft space and web-3 community for a
-                long time. Currently, in addition to the web-3 development
-                field. I started exploring web-3 development in the middle of
-                2021 and since then I have become addicted. I completed a large
-                number of projects and gained a large number of connections in
-                this Web-3 world.Talk is very cheap 🤘🏽! You can tract upon my
+                long time. Currently, in addition to the web development field.
+                I started exploring web development in the middle of 2021 and
+                since then I have become addicted. I completed a large number of
+                projects and gained a large number of connections in this Web-2
+                and Web-3 world.Talk is very cheap 🤘🏽! You can tract upon my
                 portfolio projects.
               </p>
             </div>

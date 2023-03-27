@@ -15,8 +15,8 @@ const LeftSideHero = () => {
         <TypeWriter
           options={{
             strings: [
-              " junior web-3 developer 🤩",
-              " passionate on learning about web-3...👊🏽",
+              " junior full-stack web developer 🤩",
+              " passionate on learning about web2 & web3...👊🏽",
               " Father of 🙅🏼‍♀️",
             ],
             autoStart: true,
@@ -25,8 +25,8 @@ const LeftSideHero = () => {
         />
       </p>
       <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center ls:text-left">
-        I build web-3 development and front-end for web interfaces. 😺I am very
-        passion on blockchain field.
+        I build web development and front-end for web interfaces. 😺I am very
+        passion on web field.
       </p>
       <WhatsAppBtn />
     </div>
