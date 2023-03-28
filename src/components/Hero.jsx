@@ -15,7 +15,7 @@ const Hero = () => {
           {/*left side*/}
           <LeftSideHero />
           {/*right side*/}
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full`">
+          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
             <img
               className="w-60 h-100 rounded-md mr-10"
               src={BannerImage}

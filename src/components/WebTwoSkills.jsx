@@ -7,7 +7,7 @@ const WebTwoSkills = () => {
     <section className="bg-primary py-12">
       <h3 className="text-center font-bold opacity-50">Web-2 skills</h3>
       <div className="container mx-auto mt-8">
-        <div className="grid grid-cols-10 md:grid-flow-row">
+        <div className="grid grid-cols-11 md:grid-flow-row">
           {skillsTwo.map((skill, index) => {
             return (
               <div className="flex items-center justify-center" key={index}>

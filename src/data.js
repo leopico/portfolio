@@ -29,11 +29,12 @@ import SkillImg5 from "./assets/img/skills/css3.png";
 import SkillImg6 from "./assets/img/skills/bootstrap.png";
 import SkillImg7 from "./assets/img/skills/tailwind.png";
 import SkillImg8 from "./assets/img/skills/js.png";
-import SkillImg9 from "./assets/img/skills/reactjs.png";
-import SkillImg10 from "./assets/img/skills/nextjs.jfif";
-import SkillImg11 from "./assets/img/skills/figma.png";
+import SkillImg9 from "./assets/img/skills/tslogo.png";
+import SkillImg10 from "./assets/img/skills/reactjs.png";
+import SkillImg11 from "./assets/img/skills/nextjs.jfif";
 import SkillImg12 from "./assets/img/skills/git.png";
 import SkillImg13 from "./assets/img/skills/jq.png";
+import SkillImg14 from "./assets/img/skills/figma.png";
 
 // navigation
 export const navigation = [
@@ -119,6 +120,9 @@ export const skillsTwo = [
   },
   {
     image: SkillImg13,
+  },
+  {
+    image: SkillImg14,
   },
 ];
 
