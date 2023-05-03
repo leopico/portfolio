@@ -4,7 +4,7 @@ import { services } from "../data";
 
 const Services = () => {
   return (
-    <section id="services" className="section bg-tertiary">
+    <section id="services" className="section bg-primary">
       <div className="container mx-auto">
         {/*section title */}
         <div className="flex flex-col items-center text-center">

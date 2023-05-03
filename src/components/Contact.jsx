@@ -5,7 +5,7 @@ import ContactEmail from "./ContactEmail";
 
 const Contact = () => {
   return (
-    <section className="section bg-primary" id="contact">
+    <section className="section bg-tertiary" id="contact">
       <div className="container mx-auto">
         {/*section title*/}
         <div className="flex flex-col items-center text-center">

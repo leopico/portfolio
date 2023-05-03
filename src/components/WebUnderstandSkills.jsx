@@ -1,14 +1,14 @@
 import React from "react";
 
-import { skillsTwo } from "../data";
+import { skillsUnderstanding } from "../data";
 
-const WebTwoSkills = () => {
+const WebUnderstandSkills = () => {
   return (
     <section className="bg-primary py-12">
-      <h3 className="text-center font-bold opacity-50">Web-2 skills</h3>
+      <h3 className="text-center font-bold opacity-50">Understanding</h3>
       <div className="container mx-auto mt-8">
-        <div className="grid grid-cols-9 md:grid-flow-row">
-          {skillsTwo.map((skill, index) => {
+        <div className="grid grid-cols-6 md:grid-flow-row">
+          {skillsUnderstanding.map((skill, index) => {
             return (
               <div className="flex items-center justify-center" key={index}>
                 <img
@@ -25,4 +25,4 @@ const WebTwoSkills = () => {
   );
 };
 
-export default WebTwoSkills;
+export default WebUnderstandSkills;

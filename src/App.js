@@ -9,6 +9,7 @@ import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import WebThreeSkills from "./components/WebThreeSkills";
+import WebUnderstandSkills from "./components/WebUnderstandSkills";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <About />
       <WebTwoSkills />
       <WebThreeSkills />
+      <WebUnderstandSkills />
       <Portfolio />
       <Services />
       <Contact />

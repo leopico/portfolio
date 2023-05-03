@@ -11,8 +11,6 @@ import {
 
 // projects images
 import Project1 from "./assets/img/projects/p1.png";
-import Project2 from "./assets/img/projects/p2.png";
-import Project3 from "./assets/img/projects/p3.png";
 import Project4 from "./assets/img/projects/p4.png";
 import Project5 from "./assets/img/projects/p5.png";
 import Project6 from "./assets/img/projects/p6.png";
@@ -26,15 +24,21 @@ import SkillImg3 from "./assets/img/skills/hardhat.png";
 // skills images for web-2
 import SkillImg4 from "./assets/img/skills/html5.png";
 import SkillImg5 from "./assets/img/skills/css3.png";
-import SkillImg6 from "./assets/img/skills/bootstrap.png";
-import SkillImg7 from "./assets/img/skills/tailwind.png";
-import SkillImg8 from "./assets/img/skills/js.png";
-import SkillImg9 from "./assets/img/skills/tslogo.png";
-import SkillImg10 from "./assets/img/skills/reactjs.png";
-import SkillImg11 from "./assets/img/skills/nextjs.jfif";
-import SkillImg12 from "./assets/img/skills/git.png";
-import SkillImg13 from "./assets/img/skills/jq.png";
+import SkillImg6 from "./assets/img/skills/tailwind.png";
+import SkillImg7 from "./assets/img/skills/js.png";
+import SkillImg8 from "./assets/img/skills/tslogo.png";
+import SkillImg9 from "./assets/img/skills/reactjs.png";
+import SkillImg10 from "./assets/img/skills/nextjs.jfif";
+import SkillImg11 from "./assets/img/skills/git.png";
+import SkillImg12 from "./assets/img/skills/jq.png";
+
+//skills for understanding
+import SkillImg13 from "./assets/img/skills/bootstrap.png";
 import SkillImg14 from "./assets/img/skills/figma.png";
+import SkillImg15 from "./assets/img/skills/node.js.png";
+import SkillImg16 from "./assets/img/skills/php.png";
+import SkillImg17 from "./assets/img/skills/laravel.png";
+import SkillImg18 from "./assets/img/skills/docker.png";
 
 // navigation
 export const navigation = [
@@ -118,11 +122,27 @@ export const skillsTwo = [
   {
     image: SkillImg12,
   },
+];
+
+//understanding skills
+export const skillsUnderstanding = [
   {
     image: SkillImg13,
   },
   {
     image: SkillImg14,
+  },
+  {
+    image: SkillImg15,
+  },
+  {
+    image: SkillImg16,
+  },
+  {
+    image: SkillImg17,
+  },
+  {
+    image: SkillImg18,
   },
 ];
 
@@ -132,10 +152,10 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "Front-end",
+    name: "Full-stack app",
   },
   {
-    name: "Full-stack app",
+    name: "Front-end",
   },
   {
     name: "Web-3 on eth ecosystem",
@@ -147,56 +167,52 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "Note application with Laravel-api",
-    category: "Front-end",
+    name: "Airbnb-clone with next.js and typescript",
+    category: "Full-stack app",
     description:
-      "This pj is note application with laravel-api.This pj is not fully responsive.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
-    link: "https://github.com/leopico/note-app-api.git",
-  },
-  {
-    id: "2",
-    image: Project2,
-    name: "Personal portfolio pj with tailwindcss",
-    category: "Front-end",
-    description:
-      "This pj is Tailwindcss portfolio pj with fully responsive.You can clone on github's link and check my experience for tailwindcss skill.",
-    link: "https://github.com/leopico/portfolio.git",
-  },
-  {
-    id: "3",
-    image: Project3,
-    name: "Coffee shop pj with tailwindcss",
-    category: "Front-end",
-    description:
-      "This pj was build with vite environmental that including with HTML, js, Tailwindcss and DaisyUI plugin of Tailwindcss.You can see on readMe.md for deployed link.",
-    link: "https://github.com/leopico/coffee-shop-pj.git",
+      "This pj is full-stack airbnb-clone and fully responsive with next.js, typescript, mongodb, prisma and cloudinary for uploading images.You can check ReadMe.md and how to start to run for this app.",
+    github: "https://github.com/leopico/airbnb-clone.git",
+    link: "https://booking-app-six-flame.vercel.app/",
   },
   {
     id: "4",
     image: Project4,
-    name: "Voting DAO Dapp",
-    category: "Web-3 on eth ecosystem",
+    name: "Note application with Laravel-api",
+    category: "Front-end",
     description:
-      "This pj is Voting DAO demo pj with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
-    link: "https://github.com/leopico/voting-dao-backend.git",
+      "This pj is note application with laravel-api.This pj is not fully responsive.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
+    github: "https://github.com/leopico/note-app-api.git",
+    link: "https://react-note-app-vercel.vercel.app/",
   },
   {
     id: "5",
     image: Project5,
-    name: "Multisig wallet Dapp",
-    category: "Web-3 on eth ecosystem",
+    name: "Personal portfolio pj with tailwindcss",
+    category: "Front-end",
     description:
-      "This pj is multi-sig wallet dapp pj with solidity smart contract.This pj was max responsive at (875px X 657px).You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
-    link: "https://github.com/leopico/multisig-wallet-backend",
+      "This pj is Tailwindcss portfolio pj with fully responsive.You can clone on github's link and check my experience for tailwindcss skill.",
+    github: "https://github.com/leopico/portfolio.git",
+    link: "https://portfolio-leopico.vercel.app/",
   },
   {
     id: "6",
     image: Project6,
+    name: "Voting DAO Dapp",
+    category: "Web-3 on eth ecosystem",
+    description:
+      "This pj is Voting DAO demo pj with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
+    github: "https://github.com/leopico/voting-dao-backend.git",
+    link: "https://voting-dao-frontend.vercel.app/",
+  },
+  {
+    id: "7",
+    image: Project7,
     name: "NFT Minting Site Dapp with keccak256 for whitelist function",
     category: "Web-3 on eth ecosystem",
     description:
       "This pj is NFT minting pj with solidity smart contract with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
-    link: "https://github.com/leopico/nft-space.git",
+    github: "https://github.com/leopico/nft-space.git",
+    link: "https://nft-space-frontend.vercel.app/",
   },
 ];
 
