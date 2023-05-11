@@ -32,7 +32,9 @@ const Project = ({ item }) => {
         <h6 className="text-1xl text-tertiary subtitle font-semibold capitalize mb-3">
           {item.name}
         </h6>
-        <p className="text-sm text-white mb-3">{item.description}</p>
+        <p className="text-sm text-white mb-3 text-justify p-1">
+          {item.description}
+        </p>
       </div>
       <div className="flex flex-row justify-evenly space-x-14 ">
         <button className="btn btn-md bg-tertiary hover:bg-accent-hover transition-all rounded-full mb-3">

@@ -15,13 +15,11 @@ const Hero = () => {
           {/*left side*/}
           <LeftSideHero />
           {/*right side*/}
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img
-              className="w-60 h-100 rounded-md mr-10"
-              src={BannerImage}
-              alt=""
-            />
-          </div>
+          <img
+            className="h-60 w-60 rounded-full mr-10 hidden lg:block object-cover"
+            src={BannerImage}
+            alt=""
+          />
         </div>
       </div>
     </section>

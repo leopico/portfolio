@@ -24,7 +24,7 @@ const LeftSideHero = () => {
           }}
         />
       </p>
-      <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center ls:text-left">
+      <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-justify ls:text-left">
         I build web development and front-end for web interfaces. 😺I am very
         passion on web field.
       </p>

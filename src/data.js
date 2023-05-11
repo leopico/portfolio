@@ -31,6 +31,7 @@ import SkillImg9 from "./assets/img/skills/reactjs.png";
 import SkillImg10 from "./assets/img/skills/nextjs.jfif";
 import SkillImg11 from "./assets/img/skills/git.png";
 import SkillImg12 from "./assets/img/skills/jq.png";
+import SkillImg19 from "./assets/img/skills/prism.png";
 
 //skills for understanding
 import SkillImg13 from "./assets/img/skills/bootstrap.png";
@@ -121,6 +122,9 @@ export const skillsTwo = [
   },
   {
     image: SkillImg12,
+  },
+  {
+    image: SkillImg19,
   },
 ];
 
