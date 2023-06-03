@@ -11,6 +11,7 @@ import {
 
 // projects images
 import Project1 from "./assets/img/projects/p1.png";
+import Project2 from "./assets/img/projects/p2.jpg";
 import Project4 from "./assets/img/projects/p4.png";
 import Project5 from "./assets/img/projects/p5.png";
 import Project6 from "./assets/img/projects/p6.png";
@@ -156,13 +157,16 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "Full-stack app",
+    name: "Custom-pj",
+  },
+  {
+    name: "Full-stack",
   },
   {
     name: "Front-end",
   },
   {
-    name: "Web-3 on eth ecosystem",
+    name: "Web-3 at eth",
   },
 ];
 
@@ -171,12 +175,22 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "Airbnb-clone with next.js and typescript",
-    category: "Full-stack app",
+    name: "Airbnb-clone with next.js(new app router)",
+    category: "Full-stack",
     description:
       "This pj is full-stack airbnb-clone and fully responsive with next.js, typescript, mongodb, prisma and cloudinary for uploading images.You can check ReadMe.md and how to start to run for this app.",
     github: "https://github.com/leopico/airbnb-clone.git",
     link: "https://booking-app-six-flame.vercel.app/",
+  },
+  {
+    id: "2",
+    image: Project2,
+    name: "Messenger-clone with next.js(new app router)",
+    category: "Full-stack",
+    description:
+      "This pj is full-stack messenger-clone and fully responsive with next.js, typescript, mongodb, prisma, pusher for real time and cloudinary for uploading images.You can check ReadMe.md and how to start to run for this app.",
+    github: "https://github.com/leopico/chat-app.git",
+    link: "https://chat-app-clone-kappa.vercel.app/",
   },
   {
     id: "4",
@@ -202,7 +216,7 @@ export const projectsData = [
     id: "6",
     image: Project6,
     name: "Voting DAO Dapp",
-    category: "Web-3 on eth ecosystem",
+    category: "Web-3 at eth",
     description:
       "This pj is Voting DAO demo pj with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
     github: "https://github.com/leopico/voting-dao-backend.git",
@@ -212,7 +226,7 @@ export const projectsData = [
     id: "7",
     image: Project7,
     name: "NFT Minting Site Dapp with keccak256 for whitelist function",
-    category: "Web-3 on eth ecosystem",
+    category: "Web-3 at eth",
     description:
       "This pj is NFT minting pj with solidity smart contract with fully responsive.You can clone on github's link for back-end side and check on ReadME.md how to start to run for this app.",
     github: "https://github.com/leopico/nft-space.git",
