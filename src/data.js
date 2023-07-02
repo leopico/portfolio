@@ -10,10 +10,10 @@ import {
 } from "react-icons/fi";
 
 // projects images
+import Project0 from "./assets/img/projects/p0.jpg";
 import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.jpg";
 import Project4 from "./assets/img/projects/p4.png";
-import Project5 from "./assets/img/projects/p5.png";
 import Project6 from "./assets/img/projects/p6.png";
 import Project7 from "./assets/img/projects/p7.png";
 
@@ -157,7 +157,7 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "Custom-pj",
+    name: "Own-pj",
   },
   {
     name: "Full-stack",
@@ -172,6 +172,16 @@ export const projectsNav = [
 
 // project
 export const projectsData = [
+  {
+    id: "0",
+    image: Project0,
+    name: "Blog-app with next.js(new app router)",
+    category: "Own-pj",
+    description:
+      "This pj is full-stack Blog-app and fully responsive with next.js, typescript, mongodb, prisma and cloudinary for uploading images.Admin acc is - [email-paypalmoney967@gmail.com/password-admin123].You can check ReadMe.md and how to start to run for this app.",
+    github: "https://github.com/leopico/Bog-app.git",
+    link: "https://leopico-blogapp.vercel.app/",
+  },
   {
     id: "1",
     image: Project1,
@@ -201,16 +211,6 @@ export const projectsData = [
       "This pj is note application with laravel-api.This pj is not fully responsive.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
     github: "https://github.com/leopico/note-app-api.git",
     link: "https://react-note-app-vercel.vercel.app/",
-  },
-  {
-    id: "5",
-    image: Project5,
-    name: "Personal portfolio pj with tailwindcss",
-    category: "Front-end",
-    description:
-      "This pj is Tailwindcss portfolio pj with fully responsive.You can clone on github's link and check my experience for tailwindcss skill.",
-    github: "https://github.com/leopico/portfolio.git",
-    link: "https://portfolio-leopico.vercel.app/",
   },
   {
     id: "6",
