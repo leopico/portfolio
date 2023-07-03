@@ -15,7 +15,7 @@ const LeftSideHero = () => {
         <TypeWriter
           options={{
             strings: [
-              " junior full-stack web developer 🤩",
+              " junior front-end web developer 🤩",
               " passionate on learning about web2 & web3...👊🏽",
               " Father of 🙅🏼‍♀️",
             ],

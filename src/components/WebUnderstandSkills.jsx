@@ -7,7 +7,7 @@ const WebUnderstandSkills = () => {
     <section className="bg-primary py-12">
       <h3 className="text-center font-bold opacity-50">Understanding</h3>
       <div className="container mx-auto mt-8">
-        <div className="grid grid-cols-6 md:grid-flow-row">
+        <div className="grid grid-cols-7 md:grid-flow-row">
           {skillsUnderstanding.map((skill, index) => {
             return (
               <div className="flex items-center justify-center" key={index}>

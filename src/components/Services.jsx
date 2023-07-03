@@ -12,12 +12,13 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Developing secure and decentralized web applications for clients &
+            SEO.
           </p>
         </div>
       </div>
       {/*item grid */}
-      <div className="grid lg:grid-cols-4 gap-8 p-3">
+      <div className="grid lg:grid-cols-2 gap-8 p-3">
         {services.map((service, index) => {
           return (
             <div className="bg-secondary p-6 rounded-2xl" key={index}>

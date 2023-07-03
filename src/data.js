@@ -11,20 +11,18 @@ import {
 
 // projects images
 import Project0 from "./assets/img/projects/p0.jpg";
-import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.jpg";
 import Project4 from "./assets/img/projects/p4.png";
 import Project6 from "./assets/img/projects/p6.png";
 import Project7 from "./assets/img/projects/p7.png";
 
 // skills images for web-3
-import SkillImg1 from "./assets/img/skills/eth_logo.png";
 import SkillImg2 from "./assets/img/skills/ethers_js.png";
 import SkillImg3 from "./assets/img/skills/hardhat.png";
 
 // skills images for web-2
+import SkillImg14 from "./assets/img/skills/figma.png";
 import SkillImg4 from "./assets/img/skills/html5.png";
-import SkillImg5 from "./assets/img/skills/css3.png";
 import SkillImg6 from "./assets/img/skills/tailwind.png";
 import SkillImg7 from "./assets/img/skills/js.png";
 import SkillImg8 from "./assets/img/skills/tslogo.png";
@@ -35,8 +33,9 @@ import SkillImg12 from "./assets/img/skills/jq.png";
 import SkillImg19 from "./assets/img/skills/prism.png";
 
 //skills for understanding
+import SkillImg1 from "./assets/img/skills/eth_logo.png";
+import SkillImg5 from "./assets/img/skills/css3.png";
 import SkillImg13 from "./assets/img/skills/bootstrap.png";
-import SkillImg14 from "./assets/img/skills/figma.png";
 import SkillImg15 from "./assets/img/skills/node.js.png";
 import SkillImg16 from "./assets/img/skills/php.png";
 import SkillImg17 from "./assets/img/skills/laravel.png";
@@ -85,9 +84,6 @@ export const social = [
 // web-3 skills
 export const skillsThree = [
   {
-    image: SkillImg1,
-  },
-  {
     image: SkillImg2,
   },
   {
@@ -101,10 +97,10 @@ export const skillsTwo = [
     image: SkillImg4,
   },
   {
-    image: SkillImg5,
+    image: SkillImg6,
   },
   {
-    image: SkillImg6,
+    image: SkillImg14,
   },
   {
     image: SkillImg7,
@@ -135,7 +131,10 @@ export const skillsUnderstanding = [
     image: SkillImg13,
   },
   {
-    image: SkillImg14,
+    image: SkillImg1,
+  },
+  {
+    image: SkillImg5,
   },
   {
     image: SkillImg15,
@@ -181,16 +180,6 @@ export const projectsData = [
       "This pj is full-stack Blog-app and fully responsive with next.js, typescript, mongodb, prisma and cloudinary for uploading images.Admin acc is - [email-paypalmoney967@gmail.com/password-admin123].You can check ReadMe.md and how to start to run for this app.",
     github: "https://github.com/leopico/Bog-app.git",
     link: "https://leopico-blogapp.vercel.app/",
-  },
-  {
-    id: "1",
-    image: Project1,
-    name: "Airbnb-clone with next.js(new app router)",
-    category: "Full-stack",
-    description:
-      "This pj is full-stack airbnb-clone and fully responsive with next.js, typescript, mongodb, prisma and cloudinary for uploading images.You can check ReadMe.md and how to start to run for this app.",
-    github: "https://github.com/leopico/airbnb-clone.git",
-    link: "https://booking-app-six-flame.vercel.app/",
   },
   {
     id: "2",
@@ -240,13 +229,13 @@ export const services = [
     icon: <FiSettings />,
     name: "Web Blockchain Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "I specialize in web blockchain development, leveraging Ethereum and Hyperledger. With expertise in Solidity, ether.js, and hardhat, I build secure and decentralized applications, smart contracts, and DeFi platforms. Let's unlock the potential of blockchain technology for your web projects.",
   },
   {
     icon: <FiPenTool />,
     name: "Branding",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "I specialize in SEO (Search Engine Optimization) to boost your online visibility. From keyword research to on-page optimization and link building, I employ effective strategies to drive organic traffic and improve search engine rankings. Let's optimize your website for success in the digital landscape.",
   },
 ];
 

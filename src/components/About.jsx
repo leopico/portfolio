@@ -20,7 +20,7 @@ const About = () => {
                 Leopico
               </h2>
               <p className="mb-4 text-accent ">
-                Freelance Full-Stack web developer
+                Freelance Front-end web developer
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8 antialiased text-justify">
