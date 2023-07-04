@@ -12,7 +12,7 @@ const About = () => {
           <img
             className="object-cover h-80 w-[500px] md:mx-auto lg:mx-0 rounded-2xl"
             src={Image}
-            alt=""
+            alt="about-img"
           />
           <div className="flex flex-col items-center text-center lg:items-start lg-text-left">
             <div className="flex flex-col">
