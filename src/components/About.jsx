@@ -23,7 +23,7 @@ const About = () => {
                 Freelance Front-end web developer
               </p>
               <hr className="mb-8 opacity-5" />
-              <p className="mb-8 antialiased text-justify">
+              <p className="mb-8 antialiased text-justify text-sm sm:text-base">
                 I’m a long-time wandering at nft space and web-3 community for a
                 long time. Currently, in addition to the web development field.
                 I started exploring web development in the middle of 2021 and

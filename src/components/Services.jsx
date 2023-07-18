@@ -26,7 +26,9 @@ const Services = () => {
                 {service.icon}
               </div>
               <h4 className="text-xl font-medium mb-2">{service.name}</h4>
-              <p>{service.description}</p>
+              <p className="text-[12px] sm:text-sm md:text-base">
+                {service.description}
+              </p>
             </div>
           );
         })}

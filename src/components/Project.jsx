@@ -17,9 +17,9 @@ const Project = ({ item }) => {
       key={item.id}
       className="flex flex-col items-center text-center bg-gradient-to-tr from-amber-500 to-fuchsia-700 rounded"
     >
-      <div className="mb-5">
+      <div className="mb-5 w-full">
         <img
-          className="p-2 rounded-xl"
+          className="p-2 rounded-xl w-full"
           src={item.image}
           alt=""
           style={{ height: "200px" }}
@@ -32,7 +32,7 @@ const Project = ({ item }) => {
         <h6 className="text-1xl text-tertiary subtitle font-semibold capitalize mb-3">
           {item.name}
         </h6>
-        <p className="text-sm text-white mb-3 text-justify p-1">
+        <p className="text-[12px] sm:text-sm text-white mb-3 text-justify p-1">
           {item.description}
         </p>
       </div>

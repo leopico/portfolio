@@ -16,12 +16,7 @@ import Project4 from "./assets/img/projects/p4.png";
 import Project6 from "./assets/img/projects/p6.png";
 import Project7 from "./assets/img/projects/p7.png";
 
-// skills images for web-3
-import SkillImg2 from "./assets/img/skills/ethers_js.png";
-import SkillImg3 from "./assets/img/skills/hardhat.png";
-
 // skills images for web-2
-import SkillImg14 from "./assets/img/skills/figma.png";
 import SkillImg4 from "./assets/img/skills/html5.png";
 import SkillImg6 from "./assets/img/skills/tailwind.png";
 import SkillImg7 from "./assets/img/skills/js.png";
@@ -32,7 +27,12 @@ import SkillImg11 from "./assets/img/skills/git.png";
 import SkillImg12 from "./assets/img/skills/jq.png";
 import SkillImg19 from "./assets/img/skills/prism.png";
 
+// skills images for web-3
+import SkillImg2 from "./assets/img/skills/ethers_js.png";
+import SkillImg3 from "./assets/img/skills/hardhat.png";
+
 //skills for understanding
+import SkillImg14 from "./assets/img/skills/figma.png";
 import SkillImg1 from "./assets/img/skills/eth_logo.png";
 import SkillImg5 from "./assets/img/skills/css3.png";
 import SkillImg13 from "./assets/img/skills/bootstrap.png";
@@ -81,16 +81,6 @@ export const social = [
   },
 ];
 
-// web-3 skills
-export const skillsThree = [
-  {
-    image: SkillImg2,
-  },
-  {
-    image: SkillImg3,
-  },
-];
-
 // web-2 skills
 export const skillsTwo = [
   {
@@ -98,9 +88,6 @@ export const skillsTwo = [
   },
   {
     image: SkillImg6,
-  },
-  {
-    image: SkillImg14,
   },
   {
     image: SkillImg7,
@@ -125,8 +112,21 @@ export const skillsTwo = [
   },
 ];
 
+// web-3 skills
+export const skillsThree = [
+  {
+    image: SkillImg2,
+  },
+  {
+    image: SkillImg3,
+  },
+];
+
 //understanding skills
 export const skillsUnderstanding = [
+  {
+    image: SkillImg14,
+  },
   {
     image: SkillImg13,
   },
