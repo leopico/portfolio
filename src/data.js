@@ -11,6 +11,7 @@ import {
 
 // projects images
 import Project0 from "./assets/img/projects/p0.jpg";
+import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.jpg";
 import Project4 from "./assets/img/projects/p4.png";
 import Project6 from "./assets/img/projects/p6.png";
@@ -156,6 +157,9 @@ export const projectsNav = [
     name: "all",
   },
   {
+    name: "Tailwind-ui",
+  },
+  {
     name: "Own-pj",
   },
   {
@@ -180,6 +184,16 @@ export const projectsData = [
       "This pj is full-stack Blog-app and fully responsive with next.js, typescript, mongodb, prisma and cloudinary for uploading images.Admin acc is - [email-paypalmoney967@gmail.com/password-admin123].You can check ReadMe.md and how to start to run for this app.",
     github: "https://github.com/leopico/Bog-app.git",
     link: "https://leopico-blogapp.vercel.app/",
+  },
+  {
+    id: "1",
+    image: Project1,
+    name: "UIs with Next.js and Tailwind",
+    category: "Tailwind-ui",
+    description:
+      "This pj is Web page UIs and fully responsive with next.js and tailwindcss.You can see my tailwind skill",
+    github: "https://github.com/leopico/Tailwind-UIs.git",
+    link: "https://tailwind-uis.vercel.app/",
   },
   {
     id: "2",
