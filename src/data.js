@@ -181,7 +181,7 @@ export const projectsData = [
     name: "Blog-app with next.js(new app router)",
     category: "Own-pj",
     description:
-      "This pj is full-stack Blog-app and fully responsive with next.js, typescript, mongodb, prisma and cloudinary for uploading images.Admin acc is - [email-paypalmoney967@gmail.com/password-admin123].You can check ReadMe.md and how to start to run for this app.",
+      "This pj is full-stack Blog-app and fully responsive.Admin acc is - [email-paypalmoney967@gmail.com/password-admin123].You can check ReadMe.md and how to start to run for this app.",
     github: "https://github.com/leopico/Bog-app.git",
     link: "https://leopico-blogapp.vercel.app/",
   },
@@ -201,7 +201,7 @@ export const projectsData = [
     name: "Messenger-clone with next.js(new app router)",
     category: "Full-stack",
     description:
-      "This pj is full-stack messenger-clone and fully responsive with next.js, typescript, mongodb, prisma, pusher for real time and cloudinary for uploading images.You can check ReadMe.md and how to start to run for this app.",
+      "This pj is full-stack messenger-clone and fully responsive.You can check ReadMe.md and how to start to run for this app.",
     github: "https://github.com/leopico/chat-app.git",
     link: "https://chat-app-clone-kappa.vercel.app/",
   },

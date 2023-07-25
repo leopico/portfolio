@@ -15,38 +15,42 @@ const Project = ({ item }) => {
   return (
     <div
       key={item.id}
-      className="flex flex-col items-center text-center bg-gradient-to-tr from-amber-500 to-fuchsia-700 rounded"
+      className="bg-[#1A2332] p-3 lg:p-5 rounded-xl space-y-2 text-center"
     >
-      <div className="mb-5 w-full">
-        <img
-          className="p-2 rounded-xl w-full"
-          src={item.image}
-          alt=""
-          style={{ height: "200px" }}
-        />
-      </div>
-      <div>
-        <p className="capitalize text-secondary font-semibold text-sm mb-3">
-          {item.category}
-        </p>
-        <h6 className="text-1xl text-tertiary subtitle font-semibold capitalize mb-3">
-          {item.name}
-        </h6>
-        <p className="text-[12px] sm:text-sm text-white mb-3 text-justify p-1">
-          {item.description}
-        </p>
-      </div>
-      <div className="flex flex-row justify-evenly space-x-14 ">
-        <button className="btn btn-md bg-tertiary hover:bg-accent-hover transition-all rounded-full mb-3">
-          <a {...link}>
-            <AiOutlineLink />
-          </a>
-        </button>
-        <button className="btn btn-md bg-tertiary hover:bg-accent-hover transition-all rounded-full mb-3">
-          <a {...gitRepo}>
-            <FiGithub />
-          </a>
-        </button>
+      <img
+        alt="pj-img"
+        src={item.image}
+        fill
+        className="object-cover w-full h-40 xs:h-48 rounded-lg"
+      />
+      <div className="text-white flex flex-col h-64">
+        <div className="flex-none">
+          <p className="capitalize font-semibold text-sm mb-3">
+            {item.category}
+          </p>
+        </div>
+        <div className="flex-none">
+          <h6 className="text-lg subtitle font-semibold capitalize mb-3">
+            {item.name}
+          </h6>
+        </div>
+        <div className="grow">
+          <p className="text-[12px] sm:text-sm mb-3 text-start p-1">
+            {item.description}
+          </p>
+        </div>
+        <div className="flex flex-row justify-evenly space-x-14 flex-none">
+          <button className="btn btn-md bg-tertiary hover:bg-accent-hover transition-all rounded-full mb-3">
+            <a {...link}>
+              <AiOutlineLink />
+            </a>
+          </button>
+          <button className="btn btn-md bg-tertiary hover:bg-accent-hover transition-all rounded-full mb-3">
+            <a {...gitRepo}>
+              <FiGithub />
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );

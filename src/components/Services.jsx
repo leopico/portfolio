@@ -18,20 +18,22 @@ const Services = () => {
         </div>
       </div>
       {/*item grid */}
-      <div className="grid lg:grid-cols-2 gap-8 p-3">
-        {services.map((service, index) => {
-          return (
-            <div className="bg-secondary p-6 rounded-2xl" key={index}>
-              <div className="text-accent rounded-sm w-12 h-12 flex jsutify-center mb-24 text-[28px]">
-                {service.icon}
+      <div className="xs:container mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 p-3">
+          {services.map((service, index) => {
+            return (
+              <div className="bg-secondary p-6 rounded-2xl" key={index}>
+                <div className="text-accent rounded-sm w-12 h-12 flex jsutify-center mb-24 text-[28px]">
+                  {service.icon}
+                </div>
+                <h4 className="text-xl font-medium mb-2">{service.name}</h4>
+                <p className="text-[12px] sm:text-sm md:text-base">
+                  {service.description}
+                </p>
               </div>
-              <h4 className="text-xl font-medium mb-2">{service.name}</h4>
-              <p className="text-[12px] sm:text-sm md:text-base">
-                {service.description}
-              </p>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </section>
   );
