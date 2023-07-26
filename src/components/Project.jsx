@@ -23,7 +23,7 @@ const Project = ({ item }) => {
         fill
         className="object-cover w-full h-40 xs:h-48 rounded-lg"
       />
-      <div className="text-white flex flex-col h-64">
+      <div className="text-white flex flex-col h-80 xs:h-64">
         <div className="flex-none">
           <p className="capitalize font-semibold text-sm mb-3">
             {item.category}
