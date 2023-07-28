@@ -2,18 +2,19 @@
 import {
   FiTwitter,
   FiGithub,
-  FiLinkedin,
   FiSettings,
   FiPenTool,
   FiMail,
   FiMapPin,
 } from "react-icons/fi";
 
+import { BsDiscord } from "react-icons/bs";
+
 // projects images
 import Project0 from "./assets/img/projects/p0.jpg";
 import Project1 from "./assets/img/projects/p1.png";
 import Project2 from "./assets/img/projects/p2.jpg";
-import Project4 from "./assets/img/projects/p4.png";
+import Project3 from "./assets/img/projects/p3.jpg";
 import Project6 from "./assets/img/projects/p6.png";
 import Project7 from "./assets/img/projects/p7.png";
 
@@ -74,12 +75,12 @@ export const social = [
     href: "https://github.com/leopico",
   },
   {
-    icon: <FiLinkedin />,
-    href: "https://www.linkedin.com/in/leopico-412a2624b/",
+    icon: <BsDiscord />,
+    href: "https://discord.com/invite/Pgx8GcFF",
   },
   {
     icon: <FiTwitter />,
-    href: "https://twitter.com/hTmI2022",
+    href: "https://twitter.com/Leopico13182",
   },
 ];
 
@@ -170,10 +171,10 @@ export const projectsNav = [
     name: "Full-stack",
   },
   {
-    name: "Front-end",
+    name: "Web-3 at eth",
   },
   {
-    name: "Web-3 at eth",
+    name: "CI-CD Pipeline",
   },
 ];
 
@@ -210,14 +211,14 @@ export const projectsData = [
     link: "https://chat-app-clone-kappa.vercel.app/",
   },
   {
-    id: "4",
-    image: Project4,
-    name: "Note application with Laravel-api",
-    category: "Front-end",
+    id: "3",
+    image: Project3,
+    name: "Simple ci-cd pipeline with Github Actions and Docker",
+    category: "CI-CD Pipeline",
     description:
-      "This pj is note application with laravel-api.This pj is not fully responsive.You can clone on github's link for laravel-api and check ReadME.md how to start to run for this app.",
-    github: "https://github.com/leopico/note-app-api.git",
-    link: "https://react-note-app-vercel.vercel.app/",
+      "This pj is simple-cicd pipeline with Github Actions and Docker on Next.js project.You can check ReadMe.md that how to start to run for this app.",
+    github: "https://github.com/leopico/docker-cicd.git",
+    link: "https://github.com/leopico/docker-cicd.git",
   },
   {
     id: "6",
