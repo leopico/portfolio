@@ -1,7 +1,7 @@
 import jsPDF from "jspdf";
 import React from "react";
 import { FiDownload } from "react-icons/fi";
-import Resume from "../assets/img/leopico.jpg";
+import Resume from "../assets/img/resume.png";
 
 const ResumeDownload = () => {
   const pdfGenerate = () => {
